@@ -12,12 +12,11 @@
     </head>
     
     <body class="body">
-        <header class="header">
+        <header class="header"> <a class="header__container--burguer" href="#"></a>
+
              <h1 class="header__title">anonymous proxy</h1>
 
-            <p class="header__text">In hac habitasse platea dictumst</p> <a class="header__button" href="#">
-    <img src="./assets/images/ico-scroll-down.svg" />
-  </a>
+            <p class="header__text">In hac habitasse platea dictumst</p> <a class="header__button" href="#section-two"></a>
 
         </header>
         <main class="main">
@@ -26,11 +25,12 @@
                  <h2 class="section-one__title">looking through a window</h2>
 
                 <p class="section-one__text--big">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-                    luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p> <a class="section-one__button"
-                href="adalab.com">go</a>
+                    luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+                <div> <a class="section-one__container--button" href="adalab.com">go</a>
 
+                </div>
             </section>
-            <section class="section-two">
+            <section class="section-two" id="section-two">
                  <h2 class="section-two__title">3 reasons to purchase</h2>
 
                 <article class="article">
@@ -47,31 +47,49 @@
                      <h4 class="article__title">Morbi dictum</h4>
 
                     <p class="article__text">Aliquam in dolor et dolor tincidunt.</p>
-                </article> <a class="section-two__button" href="adalab.com">more reasons</a>
+                </article>
+                <div class="section-two__container"> <a class="section-two__container--button" href="https://adalab.es/">more reasons</a>
 
+                </div>
             </section>
         </main>
-        <footer class="footer"> <a class="footer__button" href="#">
-    <img src="./assets/images/ico-arrow.svg" />
-  </a>
+        <footer class="footer"> <a class="footer__button" href="#"></a>
 
-            <div>
+            <div class="footer__container-list">
                 <ul class="footer__list">
-                    <li>articles</li>
-                    <li>books</li>
-                    <li>events</li>
-                    <li>reasons</li>
-                    <li>tips</li>
+                    <li> <a class="footer__link" href="https://google.es/">articles</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">books</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">events</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">reasons</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">tips</a>
+
+                    </li>
                 </ul>
             </div>
-            <div class="footer__list">
-                <ul>
-                    <li>twitter</li>
-                    <li>instagram</li>
-                    <li>mastodon.social</li>
+            <div class="footer__container-links">
+                <ul class="footer__list"> <a class="footer__link" href="https://google.es/">
+        <li>
+          <a class="footer__link" href="https://google.es/">twitter</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">instagram</a>
+
+                    </li>
+                    <li> <a class="footer__link" href="https://google.es/">mastodon.social</a>
+
+                    </li>
+                    </a>
                 </ul>
             </div>
-            <div class="footer__container-section">
+            <div class="footer__container-copy">
                 <p class="footer__copy">&copy;2017</p>
                 <p class="footer__copy">we<span class="footer__heart">&hearts;</span>components</p>
             </div>

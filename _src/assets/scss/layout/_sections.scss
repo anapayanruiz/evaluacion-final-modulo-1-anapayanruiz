@@ -1,0 +1,18 @@
+.section-one {
+  //   border: 1px solid red;
+
+  &__text--small {
+    @include Text;
+    color: $colorBlue;
+    font-size: 0.875rem;
+  }
+
+  &__title {
+    @include Title;
+    padding-bottom: 15px;
+  }
+
+  &__text--big {
+    @include bigText;
+  }
+}

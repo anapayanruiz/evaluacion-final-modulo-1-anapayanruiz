@@ -18,7 +18,25 @@
   font-family: $fontfamilyTitle;
   font-weight: $fontweightTitle;
   line-height: $lineHeight;
-  text-align: $textCenter;
+  font-size: $fontsizeTitle;
+  text-transform: $transformTitle;
+}
+
+@mixin Text {
+  font-family: $fontfamilyText;
+  font-weight: $fontweightText;
+  line-height: $lineHeight;
+  font-size: $fontsizeText;
+  text-transform: $transformTitle;
+}
+
+@mixin bigText {
+  color: $colorGrey;
+  font-family: $fontfamilyText;
+  font-weight: $fontweightText;
+  line-height: $lineHeight;
+  font-size: $fontsizeText;
+  text-transform: $transformTitle;
 }
 
 @mixin Footer {
@@ -28,5 +46,5 @@
   color: $colorWhite;
   line-height: $lineHeight;
   text-align: $textCenter;
-  font-size: 1rem;
+  font-size: $fontsizeFooter;
 }

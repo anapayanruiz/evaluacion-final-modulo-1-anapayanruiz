@@ -6,11 +6,10 @@
   @include CenterColumn;
 
   &__title {
+    // border: 3px solid red;
     @include mainTitle;
-    border: 3px solid red;
     font-size: 2.625rem;
     width: 300px;
-    // margin: 184px 0 0 0;
   }
 
   &__text {

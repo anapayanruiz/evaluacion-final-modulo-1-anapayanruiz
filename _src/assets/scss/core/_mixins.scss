@@ -11,9 +11,22 @@
   font-weight: $fontweightTitle;
   text-transform: $transformBigTitle;
   color: $colorWhite;
+  text-align: $textCenter;
 }
 
 @mixin Title {
   font-family: $fontfamilyTitle;
   font-weight: $fontweightTitle;
+  line-height: $lineHeight;
+  text-align: $textCenter;
+}
+
+@mixin Footer {
+  font-family: $fontfamilyText;
+  font-weight: $fontweightText;
+  text-transform: $transformBigTitle;
+  color: $colorWhite;
+  line-height: $lineHeight;
+  text-align: $textCenter;
+  font-size: 1rem;
 }

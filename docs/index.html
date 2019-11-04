@@ -3,51 +3,60 @@
     
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <title>evaluacion final</title>
         <link rel="icon" href="./favicon.png" />
         <link rel="stylesheet" text="text/css" href="./assets/css/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"
+        rel="stylesheet" />
     </head>
     
-    <body>
-        <header>
-             <h1>anonymous proxy</h1>
+    <body class="body">
+        <header class="header">
+             <h1 class="header__title">anonymous proxy</h1>
 
-            <p>In hac habitasse platea dictumst</p> <a href="#">
+            <p class="header__text">In hac habitasse platea dictumst</p> <a class="header__button" href="#">
     <img src="./assets/images/ico-scroll-down.svg" />
   </a>
 
         </header>
-        <main>
-            <section>
-                <p>insomnia tips</p>
-                 <h2>looking through a window</h2>
+        <main class="main">
+            <section class="section-one">
+                <p class="section-one__text--small">insomnia tips</p>
+                 <h2 class="section-one__title">looking through a window</h2>
 
-                <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-                    luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+                <p class="section-one__text--big">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+                    luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p> <a class="section-one__button"
+                href="adalab.com">go</a>
+
             </section>
-            <section>
-                 <h2>3 reasons to purchase</h2>
+            <section class="section-two">
+                 <h2 class="section-two__title">3 reasons to purchase</h2>
 
-                <article>
-                     <h4>Ut sed metus</h4>
+                <article class="section-two__article">
+                     <h4 class="section-two__article__title">Ut sed metus</h4>
 
-                    <p>Lorem ipsum dolor sit amet, consecteur.</p>
+                    <p class="section-two__article__text">Lorem ipsum dolor sit amet, consecteur.</p>
                 </article>
-                <article>
-                     <h4>Curabitur ac erat</h4>
+                <article class="section-two__article">
+                     <h4 class="section-two__article__title">Curabitur ac erat</h4>
 
-                    <p>Mauris mattis urna quis lorem molestie.</p>
+                    <p class="section-two__article__text">Mauris mattis urna quis lorem molestie.</p>
                 </article>
-                <article>
-                     <h4>Morbi dictum</h4>
+                <article class="section-two__article">
+                     <h4 class="section-two__article__title">Morbi dictum</h4>
 
-                    <p>Aliquam in dolor et dolor tincidunt.</p>
-                </article>
+                    <p class="section-two__article__text">Aliquam in dolor et dolor tincidunt.</p>
+                </article> <a class="section-two__button" href="adalab.com">more reasons</a>
+
             </section>
         </main>
-        <footer>
+        <footer class="footer"> <a class="footer__button" href="#">
+    <img src="./assets/images/ico-arrow.svg" />
+  </a>
+
             <div>
-                <ul>
+                <ul class="footer__list">
                     <li>articles</li>
                     <li>books</li>
                     <li>events</li>
@@ -55,16 +64,16 @@
                     <li>tips</li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__list">
                 <ul>
                     <li>twitter</li>
                     <li>instagram</li>
                     <li>mastodon.social</li>
                 </ul>
             </div>
-            <div>
-                <p>&copy;2017</p>
-                <p>we<span>love</span>components</p>
+            <div class="footer__container-section">
+                <p class="footer__copy">&copy;2017</p>
+                <p class="footer__copy">we<span class="footer__heart">&hearts;</span>components</p>
             </div>
         </footer>
     </body>

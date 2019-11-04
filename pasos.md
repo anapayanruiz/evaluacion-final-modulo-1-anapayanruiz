@@ -2,8 +2,8 @@
 
 - [x] npm install
 - [x] npm start
-- [] Crearía la carpeta docs/, la subo y la publico con GitHub Pages
-- [] Asegurar el repo: subir el primer commit y ver que está funcionando
+- [x] Crearía la carpeta docs/, la subo y la publico con GitHub Pages
+- [x] Asegurar el repo: subir el primer commit y ver que está funcionando
 
 - [] Pintar la estructura de contenedores
 - [] Metemos la semántica

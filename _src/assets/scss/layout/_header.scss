@@ -7,7 +7,10 @@
 
   &__title {
     @include mainTitle;
+    border: 3px solid red;
     font-size: 2.625rem;
+    width: 300px;
+    margin: 284px 0 0 0;
   }
 
   &__text {
@@ -15,17 +18,19 @@
     font-family: $fontfamilyText;
     font-weight: $fontweightText;
     font-size: 1rem;
+    margin: 10px 0 45px 0;
   }
 
   @media all and (min-width: 768px) {
-    border: 3px solid red;
+    // border: 3px solid red;
 
     &__title {
       font-size: 5rem;
-      width: 500px;
+      width: 600px;
     }
     &__text {
       font-size: 1.5rem;
+      margin: 20px 0 30px 0;
     }
   }
 }

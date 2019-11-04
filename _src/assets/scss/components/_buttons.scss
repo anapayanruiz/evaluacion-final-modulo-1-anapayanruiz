@@ -4,13 +4,41 @@
     border-radius: 50%;
     height: 45px;
     width: 45px;
+    background-image: url(../images/ico-scroll-down.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.section-one {
+}
+
+.section-two {
+  &__container {
+    &--button {
+      color: $colorWhite;
+      background-color: $colorBrightOrange;
+      font-family: $fontfamilyText;
+      text-transform: $transformsmallTitle;
+      text-align: $textCenter;
+      padding: 0.75rem 2.813rem;
+      font-size: 1.25rem;
+      border-radius: 22.5px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    &__container {
+      // border: red 2px solid;
+      grid-column: span 3;
+      padding-bottom: 2.5rem;
+    }
   }
 }
 
 .footer {
   position: relative;
   &__button {
-    background: $colorWhite;
+    background-color: $colorWhite;
     border-radius: 50%;
     height: 45px;
     width: 45px;
@@ -18,5 +46,8 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-image: url(../images/ico-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

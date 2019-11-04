@@ -1,17 +1,21 @@
 .footer {
   background-color: $colorDarkBlue;
-  color: $colorWhite;
   @include CenterColumn;
   @include Footer;
   font-size: 1rem;
-  padding: 3.75rem 2.5rem 2.813rem;
+  padding: 2.813rem 2.5rem 2.813rem;
 
   &__list {
     // border: red 1px solid;
     padding-bottom: 1.875rem;
   }
 
+  &__link {
+    color: $colorWhite;
+  }
+
   &__copy {
+    color: $colorWhite;
     text-transform: capitalize;
     font-size: 0.875rem;
   }
@@ -28,14 +32,13 @@
     align-items: flex-start;
     text-align: start;
 
-    &__list {
-      order: -2;
+    &__container-links {
+      order: -1;
     }
   }
 
   @media all and (min-width: 1200px) {
     justify-content: space-between;
-    padding-left: 370px;
-    padding-right: 370px;
+    padding: 0 370px;
   }
 }

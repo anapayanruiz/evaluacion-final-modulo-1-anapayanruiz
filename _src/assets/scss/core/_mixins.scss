@@ -9,7 +9,7 @@
 @mixin mainTitle {
   font-family: $fontfamilyTitle;
   font-weight: $fontweightTitle;
-  text-transform: $transformBigTitle;
+  text-transform: $transformTitle;
   color: $colorWhite;
   text-align: $textCenter;
 }
@@ -19,7 +19,7 @@
   font-weight: $fontweightTitle;
   line-height: $lineHeight;
   font-size: $fontsizeTitle;
-  text-transform: $transformTitle;
+  text-transform: $transformsmallTitle;
 }
 
 @mixin Text {
@@ -35,7 +35,7 @@
   font-weight: $fontweightText;
   line-height: $lineHeight;
   font-size: $fontsizeText;
-  text-transform: $transformTitle;
+  text-transform: $transformsmallTitle;
 }
 
 @mixin articleTitle {
@@ -43,15 +43,15 @@
   font-weight: $fontweightTitle;
   line-height: $lineHeight;
   font-size: $fontsizeText;
-  text-transform: $transformTitle;
+  text-transform: $transformsmallTitle;
 }
 
 @mixin Footer {
+  color: $colorWhite;
   font-family: $fontfamilyText;
   font-weight: $fontweightText;
-  text-transform: $transformBigTitle;
-  color: $colorWhite;
+  text-transform: $transformTitle;
   line-height: $lineHeight;
-  text-align: $textCenter;
   font-size: $fontsizeFooter;
+  text-align: $textCenter;
 }

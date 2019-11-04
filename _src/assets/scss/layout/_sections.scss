@@ -1,5 +1,5 @@
 .section-one {
-  border: 1px solid blue;
+  // border: 1px solid blue;
   padding: 1.875rem 0.9375rem;
 
   &__text--small {
@@ -23,7 +23,7 @@
 }
 
 .section-two {
-  border: 1px solid red;
+  // border: 1px solid red;
   background-color: $colorIceBlue;
   padding: 1.875rem 3.75rem;
   text-align: $textCenter;
@@ -38,10 +38,22 @@
   @media all and (min-width: 768px) {
     padding: 1.875rem 2.5rem;
   }
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__title {
+      grid-column: span 3;
+    }
+
+    &__button {
+      grid-column: span 3;
+    }
+  }
 }
 
 .article {
-  padding-bottom: 2.813rem;
+  padding: 0 0.875rem 2.813rem;
   &__title {
     @include articleTitle;
   }

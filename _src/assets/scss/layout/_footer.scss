@@ -2,12 +2,11 @@
   background-color: $colorDarkBlue;
   @include CenterColumn;
   @include Footer;
-  font-size: 1rem;
-  padding: 2.813rem 2.5rem 2.813rem;
+  font-size: 16px;
+  padding: 45px 40px 45px;
 
   &__list {
-    // border: red 1px solid;
-    padding-bottom: 1.875rem;
+    padding-bottom: 30px;
   }
 
   &__link {
@@ -17,7 +16,7 @@
   &__copy {
     color: $colorWhite;
     text-transform: capitalize;
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   &__heart {
@@ -25,7 +24,6 @@
   }
 
   @media all and (min-width: 768px) {
-    // border: solid 1px red;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;

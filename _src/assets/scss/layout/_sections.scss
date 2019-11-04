@@ -1,56 +1,58 @@
 .section-one {
-  // border: 1px solid blue;
-  padding: 1.875rem 0.9375rem;
+  padding: 30px 15px;
 
   &__text--small {
     @include Text;
     color: $colorBlue;
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   &__title {
     @include Title;
-    padding-bottom: 0.9375rem;
+    padding-bottom: 15px;
   }
 
   &__text--big {
     @include bigText;
-    padding-bottom: 1.875rem;
+    padding-bottom: 30px;
   }
 
   @media all and (min-width: 768px) {
-    padding: 1.875rem 2.5rem;
+    padding: 30px 40px;
   }
 }
 
 .section-two {
-  // border: 1px solid red;
   background-color: $colorIceBlue;
-  padding: 1.875rem 3.75rem;
+  padding: 30px 60px;
   text-align: $textCenter;
   display: grid;
   grid-template-columns: 1fr;
 
   &__title {
     @include Title;
-    padding-bottom: 2.813rem;
+    padding-bottom: 45px;
+  }
+
+  &__container {
+    padding-bottom: 60px;
   }
 
   @media all and (min-width: 768px) {
-    padding: 1.875rem 2.5rem;
-  }
-
-  @media all and (min-width: 768px) {
+    padding: 30px 40px;
     grid-template-columns: 1fr 1fr 1fr;
 
     &__title {
+      grid-column: span 3;
+    }
+    &__container {
       grid-column: span 3;
     }
   }
 }
 
 .article {
-  padding: 0 0.875rem 2.813rem;
+  padding: 0 14px 45px;
   &__title {
     @include articleTitle;
   }

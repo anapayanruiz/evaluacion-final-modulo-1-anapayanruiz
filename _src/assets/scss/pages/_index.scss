@@ -14,11 +14,7 @@ html {
 
 .main {
   border: 5px solid yellowgreen;
-  padding: 1.875rem 0.9375rem;
-
-  @media all and (min-width: 768px) {
-    padding: 1.875rem 2.5rem;
-  }
+  //   padding: 1.875rem 0.9375rem;
 }
 
 .footer {

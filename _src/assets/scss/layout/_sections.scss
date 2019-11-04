@@ -1,5 +1,6 @@
 .section-one {
-  //   border: 1px solid red;
+  border: 1px solid blue;
+  padding: 1.875rem 0.9375rem;
 
   &__text--small {
     @include Text;
@@ -14,5 +15,39 @@
 
   &__text--big {
     @include bigText;
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 1.875rem 2.5rem;
+  }
+}
+
+.section-two {
+  border: 1px solid red;
+  background-color: $colorIceBlue;
+  padding: 1.875rem 3.75rem;
+  text-align: $textCenter;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &__title {
+    @include Title;
+    padding-bottom: 2.813rem;
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 1.875rem 2.5rem;
+  }
+}
+
+.article {
+  padding-bottom: 2.813rem;
+  &__title {
+    @include articleTitle;
+  }
+
+  &__text {
+    @include Text;
+    text-align: $textCenter;
   }
 }

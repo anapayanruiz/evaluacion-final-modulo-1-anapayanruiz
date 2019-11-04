@@ -27,13 +27,20 @@
   font-weight: $fontweightText;
   line-height: $lineHeight;
   font-size: $fontsizeText;
-  text-transform: $transformTitle;
 }
 
 @mixin bigText {
   color: $colorGrey;
   font-family: $fontfamilyText;
   font-weight: $fontweightText;
+  line-height: $lineHeight;
+  font-size: $fontsizeText;
+  text-transform: $transformTitle;
+}
+
+@mixin articleTitle {
+  font-family: $fontfamilyTitle;
+  font-weight: $fontweightTitle;
   line-height: $lineHeight;
   font-size: $fontsizeText;
   text-transform: $transformTitle;

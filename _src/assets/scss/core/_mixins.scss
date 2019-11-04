@@ -1,0 +1,11 @@
+@mixin CenterColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin Title {
+  font-family: $fontfamilyTitle;
+  font-weight: $fontweightTitle;
+}

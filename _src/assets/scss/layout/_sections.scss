@@ -10,11 +10,12 @@
 
   &__title {
     @include Title;
-    padding-bottom: 15px;
+    padding-bottom: 0.9375rem;
   }
 
   &__text--big {
     @include bigText;
+    padding-bottom: 1.875rem;
   }
 
   @media all and (min-width: 768px) {

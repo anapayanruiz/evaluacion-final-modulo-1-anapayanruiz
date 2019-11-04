@@ -1,16 +1,42 @@
 .header {
+  &__container--burguer {
+    background-color: $colorCeruleanBlue;
+    background-image: url(../images/ico-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 44px;
+    width: 44px;
+  }
+
   &__button {
     background: $colorWhite;
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
     background-image: url(../images/ico-scroll-down.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
   }
 }
 
 .section-one {
+  &__container {
+    &--button {
+      color: $colorBrightOrange;
+      border: 2px solid $colorBrightOrange;
+      background-color: $colorWhite;
+      font-family: $fontfamilyText;
+      text-transform: $transformsmallTitle;
+      text-align: $textCenter;
+      padding: 0.5rem 1.75rem;
+      font-size: 1.25rem;
+      border-radius: 22.5px;
+    }
+  }
 }
 
 .section-two {

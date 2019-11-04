@@ -3,6 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+@mixin mainTitle {
+  font-family: $fontfamilyTitle;
+  font-weight: $fontweightTitle;
+  text-transform: $transformBigTitle;
+  color: $colorWhite;
 }
 
 @mixin Title {

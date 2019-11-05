@@ -37,6 +37,15 @@
       padding: 8px 28px;
       font-size: 20px;
       border-radius: 22.5px;
+
+      &:hover {
+        border: 2px solid $colorCeruleanBlue;
+        transition: border ease 0.2s;
+        color: $colorWhite;
+        transition: color ease-in 0.2s;
+        background: $colorCeruleanBlue;
+        transition: background ease-in 0.2s;
+      }
     }
   }
 }
@@ -54,6 +63,11 @@
       padding: 12px 24px;
       font-size: 20px;
       border-radius: 22.5px;
+
+      &:hover {
+        background-color: $colorCeruleanBlue;
+        transition: background-color ease-in 0.2s;
+      }
     }
 
     @media all and (min-width: 768px) {

@@ -5,6 +5,7 @@
     @include Text;
     color: $colorBlue;
     font-size: 14px;
+    text-transform: capitalize;
   }
 
   &__title {
@@ -14,6 +15,7 @@
 
   &__text--big {
     @include bigText;
+    text-transform: none;
   }
 
   @media all and (min-width: 768px) {

@@ -42,9 +42,10 @@
         border: 2px solid $colorCeruleanBlue;
         transition: border ease 0.2s;
         color: $colorWhite;
-        transition: color ease-in 0.2s;
+        transition: color ease 0.2s;
         background: $colorCeruleanBlue;
-        transition: background ease-in 0.2s;
+        transition: background ease 0.2s;
+        padding: 10px 30px;
       }
     }
   }
@@ -66,7 +67,8 @@
 
       &:hover {
         background-color: $colorCeruleanBlue;
-        transition: background-color ease-in 0.2s;
+        transition: background-color linear 0.2s;
+        padding: 14px 26px;
       }
     }
 
@@ -92,5 +94,21 @@
     transform: translate(-50%, -50%);
     background-repeat: no-repeat;
     background-position: center;
+
+    &:hover {
+      animation-duration: 3s;
+      animation-name: spin;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg) translate(-50%, -50%);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
   }
 }

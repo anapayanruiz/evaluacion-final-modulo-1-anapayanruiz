@@ -14,7 +14,6 @@
 
   &__text--big {
     @include bigText;
-    padding-bottom: 30px;
   }
 
   @media all and (min-width: 768px) {
@@ -32,10 +31,6 @@
   &__title {
     @include Title;
     padding-bottom: 45px;
-  }
-
-  &__container {
-    padding-bottom: 60px;
   }
 
   @media all and (min-width: 768px) {

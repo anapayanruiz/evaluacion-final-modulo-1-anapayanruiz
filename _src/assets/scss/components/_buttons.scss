@@ -24,34 +24,42 @@
 }
 
 .section-one {
-  &__button {
-    color: $colorBrightOrange;
-    border: 2px solid $colorBrightOrange;
-    background-color: $colorWhite;
-    font-family: $fontfamilyText;
-    text-transform: $transformsmallTitle;
-    text-align: $textCenter;
-    padding: 8px 28px;
-    font-size: 20px;
-    border-radius: 22.5px;
+  &__container {
+    padding-top: 30px;
+
+    &--button {
+      color: $colorBrightOrange;
+      border: 2px solid $colorBrightOrange;
+      background-color: $colorWhite;
+      font-family: $fontfamilyText;
+      text-transform: $transformsmallTitle;
+      text-align: $textCenter;
+      padding: 8px 28px;
+      font-size: 20px;
+      border-radius: 22.5px;
+    }
   }
 }
 
 .section-two {
-  &__container--button {
-    color: $colorWhite;
-    background-color: $colorBrightOrange;
-    font-family: $fontfamilyText;
-    text-transform: $transformsmallTitle;
-    text-align: $textCenter;
-    padding: 12px 24px;
-    font-size: 20px;
-    border-radius: 22.5px;
-  }
+  &__container {
+    padding-bottom: 60px;
 
-  @media all and (min-width: 768px) {
-    &__container {
-      padding-bottom: 40px;
+    &--button {
+      color: $colorWhite;
+      background-color: $colorBrightOrange;
+      font-family: $fontfamilyText;
+      text-transform: $transformsmallTitle;
+      text-align: $textCenter;
+      padding: 12px 24px;
+      font-size: 20px;
+      border-radius: 22.5px;
+    }
+
+    @media all and (min-width: 768px) {
+      &__container {
+        padding-bottom: 40px;
+      }
     }
   }
 }

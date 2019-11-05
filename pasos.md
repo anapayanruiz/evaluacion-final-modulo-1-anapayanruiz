@@ -13,4 +13,4 @@
 - [x] Meter HTML básico: textos e imágenes
 - [x] Maquetar de fuera hacia dentro los componentes interiores
 
-- [] Meter animaciones
+- [x] Meter animaciones

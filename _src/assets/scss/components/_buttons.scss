@@ -20,6 +20,9 @@
     border-radius: 50%;
     height: 45px;
     width: 45px;
+    @media all and (max-width: 767px) {
+      display: none;
+    }
   }
 }
 
@@ -27,10 +30,13 @@
   &__container {
     padding-top: 30px;
 
+    @media all and (min-width: 768px) {
+      padding-top: 50px;
+    }
+
     &--button {
-      color: $colorBrightOrange;
-      border: 2px solid $colorBrightOrange;
-      background-color: $colorWhite;
+      color: $colorWhite;
+      background-color: $colorBrightOrange;
       font-family: $fontfamilyText;
       text-transform: $transformsmallTitle;
       text-align: $textCenter;
@@ -71,11 +77,10 @@
         padding: 14px 26px;
       }
     }
-
-    @media all and (min-width: 768px) {
-      &__container {
-        padding-bottom: 40px;
-      }
+  }
+  @media all and (min-width: 768px) {
+    &__container {
+      padding-bottom: 40px;
     }
   }
 }
